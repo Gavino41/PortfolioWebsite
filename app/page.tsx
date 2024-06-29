@@ -1,11 +1,8 @@
-import Header from './header';
-
-
 export default function Home() {
   return (
-    <>
-      <Header />
+    <div>
+
       <p>Image from public folder</p>
-    </>
+    </div>
   );
 }
