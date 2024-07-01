@@ -5,20 +5,35 @@
 	padding: 40px;
 	margin-top: -10px;
 	margin-left: -20px;
-	margin-right: -20px;
-	height: 120px;
+	margin-right: -8px;
+	height: 75px;
 
 }
-.h1{
+.nameText{
 	color: white;
 	font-size: 30px;
+	text-decoration: none;
 }
-.ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 10px;
-	overflow: hidden;
+.links{
+	flex: 1;
+	width: 100%;
 	display: flex;
-	justify-content: space-between;
-	
+	flex-direction: row;
+}
+.nameDiv{
+	flex: 1;
+	margin-top: 20px;
+}
+.linkDiv{
+	flex: 1;
+	text-align: right;
+	width: 100%;
+	gap: 100px;
+	margin-top: 30px;
+}
+.linkText{
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	padding-left: 50px;
 }
