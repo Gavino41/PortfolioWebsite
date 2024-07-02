@@ -23,13 +23,15 @@
 .nameDiv{
 	flex: 1;
 	margin-top: 20px;
+	padding-left: 100px;
 }
 .linkDiv{
 	flex: 1;
 	text-align: right;
 	width: 100%;
-	gap: 100px;
+	gap: 50px;
 	margin-top: 30px;
+	padding-right: 265px;
 }
 .linkText{
 	color: white;
