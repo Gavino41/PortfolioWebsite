@@ -15,8 +15,8 @@ export default function Home() {
                                         </p>
                                 </span>
                                 <span className={styles.linkSpan}>
-                                        <a href="https://github.com/Gavino41" className={styles.linkText}>GitHub</a>
-                                        <a href="https://linkedin.com/in/gavin-osborne-mobile" className={styles.linkText}>LinkedIn</a>
+                                        <a className={styles.githubButton} href="https://github.com/Gavino41">GitHub</a>
+                                        <a href="www.linkedin.com/in/gavin-osborne-mobile">LinkedIn</a>
                                 </span>
                         </div>
                         <span className={styles.imageSpan}>
